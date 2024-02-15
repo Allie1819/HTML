@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>forms</title>
+</head>
+<body>
+ <!--we can create forms in HTML using the form tag
+ different form elements includes:
+1. input ( text, radio button, check box, numbers, validation, password, file, date)
+2. label 
+3. button 
+ASSIGNMENT
+rep-->
+
+
+<h3>FORMS</h3>
+<form action="">
+<div> <label for="firstname"> First Name</label>  
+ <input type="text"  name="FirstName" id="firstname" > </div><br>
+ <label for="lastname"> Last Name</label>  
+ <input type="text"  name="LastName" required id="lastname"> <br>
+
+<label for="image"> Upload image</label><br>
+<input type="file" name="image" id="file"><br>
+
+<label for="date"> Date of birth</label><br>
+<input type="date" name="date" id="date">
+
+
+
+
+
+ <p>Select your gender</p>
+ <label for="gender"> Male  </label> <br>  
+<input type="radio" id="gender" name="gender" value="male"> <br>
+
+<label for="gender"> Female  </label> <br>  
+<input type="radio" id="gender" name="gender" value="female">
+
+<p> Are you a Nigerian?</p>
+<label for="yes"> yes  </label> <br>  
+<input type="checkbox" id="yes" name="yes" value="yes"><br>
+<label for="no"> no  </label> <br>  
+<input type="checkbox" id="no" name="no" value="no"><br>
+
+<label for="age"> Age  </label> <br>  
+<input type="number" id="number" name="age"><br>
+
+<input type="submit" value="Submit">
+
+
+</form>
+</body>
+</html>
